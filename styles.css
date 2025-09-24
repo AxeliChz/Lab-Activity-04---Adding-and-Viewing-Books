@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7fbff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    background: #a8d8ff;
+    color: #2c3e50;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    background: #a8d8ff;
+    color: #2c3e50;
+    padding: 10px 20px;
+    margin: 8px;
+    border-radius: 25px;
+    transition: 0.3s;
+    font-weight: bold;
+    display: inline-block;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a:hover {
+    background: #91caff;
+}
+
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+
+form {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form select {
+    width: 85%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #cce5ff;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #f7fbff;
+}
+
+
+form button, .btn {
+    background: #a8d8ff;
+    color: #2c3e50;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 60%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+
+form button:hover, .btn:hover {
+    background: #91caff;
+}
+
+
+.success {
+    color: #27ae60;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.05);
+}
+
+th {
+    background: #a8d8ff;
+    color: #2c3e50;
+    padding: 12px;
+    font-size: 15px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    background: #f7fbff;
+    font-size: 14px;
+}
+
+tr:nth-child(even) td {
+    background: #eef7ff;
+}
